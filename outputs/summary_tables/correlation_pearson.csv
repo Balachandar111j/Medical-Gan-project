@@ -1,0 +1,5 @@
+,Sales,Profit,Quantity,Discount
+Sales,1.0,0.479,0.201,-0.028
+Profit,0.479,1.0,0.066,-0.219
+Quantity,0.201,0.066,1.0,0.009
+Discount,-0.028,-0.219,0.009,1.0

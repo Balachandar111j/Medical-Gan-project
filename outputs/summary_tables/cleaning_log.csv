@@ -1,0 +1,13 @@
+step,rows_affected,decision
+Trim spaces in text columns,16,Removed leading/trailing spaces so labels such as 'West ' and 'West' form one group
+Fix inconsistent Category labels,1,Replaced with the Category that the row's Sub-Category always belongs to
+Convert Order Date to datetime,0,Parsed '/' and '-' styles as month-first; values that cannot be parsed become NaT (reviewed in 7.6)
+Convert Sales to numeric,0,Invalid text or infinite values set to NaN (not 0) and handled in 7.6
+Convert Quantity to numeric,0,Invalid text or infinite values set to NaN (not 0) and handled in 7.6
+Convert Discount to numeric,0,Invalid text or infinite values set to NaN (not 0) and handled in 7.6
+Convert Profit to numeric,0,Invalid text or infinite values set to NaN (not 0) and handled in 7.6
+Remove exact duplicate rows,0,Rows identical in every column are copies -> removed
+Check duplicates ignoring Row ID,1,"Kept: different Row IDs, so they may be two genuine line items; no evidence of an error (effect on totals is negligible)"
+Drop rows missing essential values,0,"Rows without date, category, sales, quantity, discount or profit cannot be analysed; they are removed, not filled with 0"
+Validate value ranges,1871,Negative profit KEPT: these are real loss-making sales and are central to the analysis
+Create features,9994,"Added Year, Month, Month Name, Quarter, Year-Month, Profit Margin (%), Is Loss, Discount Band"

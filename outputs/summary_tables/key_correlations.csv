@@ -1,0 +1,5 @@
+pair,pearson_r,spearman_rho,pearson_p,spearman_p
+Sales vs Quantity,0.201,0.327,2.0199348714596567e-91,2.163709507893489e-248
+Sales vs Profit,0.479,0.518,0.0,0.0
+Discount vs Profit,-0.219,-0.543,2.702294436198141e-109,0.0
+Discount vs Sales,-0.028,-0.057,0.00482675292533219,1.2046856695069169e-08

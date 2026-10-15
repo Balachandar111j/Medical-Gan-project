@@ -1,0 +1,15 @@
+Metric,Value,Definition
+Transactions (rows),"9,994",Number of order lines after cleaning
+Total recorded sales,"$2,297,200.86",Sum of Sales
+Total recorded profit,"$286,397.02",Sum of Profit (losses included)
+Overall profit margin,12.47%,Total Profit / Total Sales x 100
+Average row profit margin,12.03%,Mean of row-level margins (each row weighted equally)
+Total units recorded,"37,873",Sum of Quantity across transactions (not unique products)
+Average transaction value,$229.86,Total Sales / number of rows
+Loss-making transactions,18.7%,Share of rows with Profit < 0
+Unique orders,"5,009",Distinct Order IDs
+Average order value (AOV),$458.61,Total Sales / unique orders
+Average lines per order,2.00,Rows / unique orders
+Unique customers,793,Distinct Customer IDs
+Unique product names,"1,850",Distinct Product Names
+Date range,03 Jan 2014 to 30 Dec 2017,First and last order date

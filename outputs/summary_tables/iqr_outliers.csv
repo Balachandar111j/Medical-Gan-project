@@ -1,0 +1,5 @@
+variable,lower_fence,upper_fence,outliers,outlier_pct
+Sales,-271.71,498.93,1167,11.68
+Profit,-39.72,70.82,1881,18.82
+Quantity,-2.5,9.5,170,1.7
+Discount,-0.3,0.5,856,8.57
